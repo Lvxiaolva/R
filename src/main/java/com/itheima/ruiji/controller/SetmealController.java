@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @RestController
 @RequestMapping("/setmeal")
-@Cacheable
+
 public class SetmealController {
     @Autowired
     private SetmealService setmealService;
